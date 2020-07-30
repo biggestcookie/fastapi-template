@@ -7,3 +7,7 @@
 - [`/api/example`](/api/example): Example "Hello world" endpoint
 
 - [`/api/example?name=Foo`](/api/example?name=Foo): Example "Hello world" endpoint with params
+
+- [`/api/example/github`](/api/example/github): Example endpoint that will return the GitHub user the application is authenticated as
+
+- [`/api/example/github/async`](/api/example/github/async): Same example endpoint as above, but using async
