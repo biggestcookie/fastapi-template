@@ -7,11 +7,16 @@
         {
             "name": "Uvicorn main:app",
             "type": "python",
+            "pythonPath": "${command:python.interpreterPath}",
             "request": "launch",
             "module": "uvicorn",
+            "justMyCode": true,
             "args": [
                 "main:app",
             ],
+            "envFile": "${workspaceFolder}/.env",
+            "console": "internalConsole",
+            "redirectOutput": true
         },
     ]
 }

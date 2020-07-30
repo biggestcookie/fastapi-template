@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/__pycache__/": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+}
