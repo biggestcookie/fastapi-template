@@ -1,5 +1,9 @@
 # FastAPI-Template
 
+[GitHub repository](https://github.com/biggestcookie/fastapi-template)
+
+[Glitch live demo](https://glitch.com/~fastapi-template)
+
 ## Getting started
 
 1. [Install Python 3.6 or higher.](https://www.python.org/downloads/)
