@@ -32,6 +32,7 @@ async def async_fetch_authorized_github_user(aiohttp_session: ClientSession) -> 
 
 
 def github_profile_to_example_response(profile_json: Any) -> GitHubResponse:
+    """Formats the user profile response from GitHub into a response model used in the example route."""
     gh_response = {
         "user_name": profile_json["login"],
         "followers": profile_json["followers"],
