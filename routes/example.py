@@ -13,7 +13,7 @@ router = APIRouter()
 
 
 @router.get("", response_model=HelloWorldResponse)
-def get(name: str = None) -> HelloWorldResponse:
+def hello_world(name: str = None) -> HelloWorldResponse:
     """Returns a 'Hello {name}!' response, or 'Hello world!' if name is not specified in the params."""
     payload = f"Hello { name or 'world' }!"
     body = {"payload": payload}
