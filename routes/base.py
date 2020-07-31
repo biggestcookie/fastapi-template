@@ -8,6 +8,6 @@ router = APIRouter()
 @router.get("/", response_class=Response)
 def index() -> Response:
     """Returns the README.md and urls.md as an HTML page to the base endpoint."""
-    with open("./README.md", "rb") as readme, open("./views/urls.md", "rb") as urls:
+    with open("./README.md", "rb") as readme, open("./views/demo.md", "rb") as urls:
         readme_html = Markdown().convert(urls.read() + readme.read())
         return Response(readme_html, media_type="text/html")
