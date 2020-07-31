@@ -4,7 +4,7 @@
 
 [Glitch live demo](https://glitch.com/~fastapi-template)
 
-## Getting started
+## Setup
 
 1. [Install Python 3.6 or higher.](https://www.python.org/downloads/)
 2. Install pip dependencies with `pip install -r requirements.txt`
@@ -23,6 +23,6 @@ In addition, for VSCode Users:
 
 ## Developing with FastAPI
 
-- [Python Types for FastAPI](https://fastapi.tiangolo.com/python-types/)
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
 
-- [Fast API User Guide](https://fastapi.tiangolo.com/tutorial/)
+- [Python Types for FastAPI](https://fastapi.tiangolo.com/python-types/)
