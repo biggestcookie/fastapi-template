@@ -4,7 +4,7 @@
 
 - [`/`](/): Base route
 
-- [`/redoc`](/redoc): Auto-generated documentation for this API
+- [`/docs`](/docs): Auto-generated documentation for this API
 
 - [`/api/example`](/api/example): Example "Hello world" endpoint
 
