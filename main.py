@@ -1,6 +1,6 @@
 from fastapi import APIRouter, FastAPI
 
-from routes import example, index
+from routes import base, example
 
 
 def get_app() -> FastAPI:
@@ -8,7 +8,7 @@ def get_app() -> FastAPI:
     app = FastAPI()
 
     # Add base route at localhost:8000
-    app.include_router(index.router)
+    app.include_router(base.router)
 
     # Add additional routes under localhost:8000/api
     app.include_router(get_router(), prefix="/api")
