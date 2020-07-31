@@ -9,7 +9,7 @@
 1. [Install Python 3.6 or higher.](https://www.python.org/downloads/)
 2. Install pip dependencies with `pip install -r requirements.txt`
    or `pip3 install -r requirements` for Mac/Linux users.
-3. Copy or rename `.env_example` to `.env` in the root of the application.
+3. Copy or rename `.env_example` to `.env` in the root of the project folder.
 4. Optionally [create a GitHub personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) and store it under `github_token` in your `.env` file to run the GitHub example routes.
 5. Run the application with `uvicorn main:app --reload`
 
