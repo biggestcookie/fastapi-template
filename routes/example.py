@@ -30,7 +30,7 @@ def get_authorized_github_user() -> GitHubResponse:
 
 @router.get("/github/async", response_model=GitHubResponse)
 async def async_get_authorized_github_user() -> GitHubResponse:
-    """Returns the GitHub user this application is authorized with."""
+    """Returns the GitHub user this application is authorized with. Alternate route for async example."""
     async with ClientSession() as aiohttp_session:
         resp_body = await async_fetch_authorized_github_user(aiohttp_session)
         return github_profile_to_example_response(resp_body)
