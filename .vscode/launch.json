@@ -7,7 +7,7 @@
         {
             "name": "Uvicorn main:app",
             "type": "python",
-            "pythonPath": "${command:python.interpreterPath}",
+            "python": "${command:python.interpreterPath}",
             "request": "launch",
             "module": "uvicorn",
             "justMyCode": true,
